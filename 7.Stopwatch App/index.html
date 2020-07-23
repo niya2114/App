@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+      <title>Stopwatch App</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="styling.css" rel="stylesheet" > 
+     
+    <!--<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;1,900&display=swap" rel="stylesheet">--> <!--google font-->
+
+ </head>
+  <body>
+      <div class="container-fluid"><h1 class="heading">STOPWATCH</h1>
+      
+      <div id="lap">
+      <span id="lapminute">00</span>:<span id="lapseconds">00</span>:<span id="lapcentiseconds">00</span></div>
+      
+      <div id="time">
+      <span id="timeminute">00</span>:<span id="timeseconds">00</span>:<span id="timecentiseconds">00</span></div>
+      
+      <div id="controlscontainer" class="row">
+    <div class="col-xs-2 col-xs-offset-4">
+    <div id ="startbutton" class="control">Start</div>
+    <div id ="stopbutton" class="control">Stop</div>
+    <div id ="resumebutton" class="control">Resume</div></div>
+      
+    <div class="col-xs-2">
+    <div id ="lapbutton" class="control">Lap</div>
+    <div id ="resetbutton" class="control">Reset</div>
+    </div></div>
+          
+    <div id="laps"></div>
+</div>
+
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="stopwatch.js"></script>
+      
+     
+  </body>
+</html>

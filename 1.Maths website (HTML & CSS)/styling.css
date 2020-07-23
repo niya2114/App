@@ -1,0 +1,198 @@
+body{
+    font: Ariel,Helvetica ,sans-serif;
+}
+
+
+#container{
+   width:1050px;
+   /* border: 1px solid black;*/
+    margin: 0 auto;
+    
+}
+#brand{
+    float: left; 
+     
+    }
+#header{
+    height: 110px;
+    padding: 100;
+    
+}
+h1 a{
+    font-weight: 100;
+    font-size: 50px;
+    color:blueviolet;
+    text-decoration: none;
+}
+#searchbox{
+    float:right;
+    margin: 0px;
+    height:50px;
+    width: 400px; 
+    background:linear-gradient(green,yellow);
+    background:-webkit-linear-gradient(green,yellow);
+    background:-o-linear-gradient(green,yellow);
+    background:-moz-linear-gradient(green,yellow);
+    
+    padding: 20px 20px 0 10px;
+    margin-top: 20px;
+        }
+.text{
+    color:orange;
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size:15px;
+    background: white url(images/LogoMakr_5JLRit.png) right center;
+    background-repeat: no-repeat;
+    border: 1px solid darkblue;
+}
+.search{
+    float: right;
+    background: blueviolet;
+    color:white;
+    padding:5px;
+    font-weight: bold;
+    font-size: 13px;
+    width:100px;
+    }
+.clear{
+    clear: both;
+}
+ ul  {
+    list-style: none;
+     
+     }
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li{ 
+    float:left;
+    padding: 0 30px ;
+    height: 30px;
+    border-right: 1px solid black;
+    color: black;
+    
+    
+    
+}
+#menu{
+    height: 60px;
+    background:linear-gradient(#76f3c7 ,#76b9f3) ;
+    background:-webkit-linear-gradientlinear-gradient(#76f3c7 ,#76b9f3) ;
+    background:-o-linear-gradientlinear-gradient(#76f3c7 ,#76b9f3) ;
+    background:-moz-linear-gradientlinear-gradient(#76f3c7 ,#76b9f3) ;
+     padding: 7px 0;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+    line-height: 30px;
+    transition:font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    
+     
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color:blue;
+}
+#introduction{
+ background:linear-gradient(yellow,#07f73b) ;
+ background:-webkit-linear-gradient(yellow,#07f73b) ;
+ background: -o-linear-gradient(yellow,#07f73b) ;
+ background:-moz-linear-gradient(yellow,#07f73b) ;   
+ padding: 35px;
+    margin-top: 19px;
+}
+#introduction h3{
+    font-size: 45px;
+    font-weight: normal;
+    color: green;
+    
+}
+#introduction p{
+    font-size: 25px;
+}
+.sidebar{
+    padding: 10px 30px;
+    height: 500px;
+    width: 450px;
+    margin-top: 25px;
+    border: 1px solid blue ;
+    border-radius: 20px;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+
+#rightsidebar{
+    
+    float: right;
+      
+}
+
+ .sidebar h3{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: normal;
+    padding top: 20px;s
+     padding-left: 10px;
+    color: darkblue;
+}
+.sidebar ul li a{
+ text-decoration: none;
+    font-size: 20px;
+    color: crimson;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+transition: font-size 0.3s ease;
+transition: -webkit-font-size 0.3s ease;
+transition: -o-font-size 0.3s ease;
+transition: -moz-font-size 0.3s ease;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+
+#leftsidebar ul li{
+    padding:3px 0 4px 6px; 
+   list-style-image: url(images/arrow.png);
+    padding-left: 16px;
+    }
+#rightsidebar ul li{
+list-style-image: url(images/tick.png);
+ padding:15px 0px 17px 50px;
+}
+.footer{
+    background: linear-gradient(yellow,orange);
+    background: -webkit-linear-gradient(yellow,orange);
+    background: -o-linear-gradient(yellow,orange);
+    background: -moz-linear-gradient(yellow,orange);
+    
+    
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+}
+
+
+
+
+
